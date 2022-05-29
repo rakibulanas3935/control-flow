@@ -1,11 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int i=0,j=2;
-    for ( i,j;  j<10; i++,j++)
+int main()
+{
+    int i;
+    printf("The first 10 natural numbers are:\n");
+    for (i = 1; i <= 10; i++)
     {
-        printf("%d %d\n",i,j);
+        printf("%d ", i);
     }
-    
+    printf("\n");
     return 0;
 }
